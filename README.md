@@ -131,8 +131,8 @@ git --version
 Clone your own repository. Replace the URL and directory placeholders with the actual values for your GitHub repository:
 
 ```bash
-git clone https://github.com/00nx/telegram-account-takeover-poc.git
-cd telegram-account-takeover-poc
+git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY>.git
+cd <YOUR-REPOSITORY>
 npm install
 ```
 

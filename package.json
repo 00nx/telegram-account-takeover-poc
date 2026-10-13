@@ -1,0 +1,30 @@
+{
+  "name": "telegram-rce-poc",
+  "version": "1.0.0",
+  "description": "Proof-of-concept: crafted tg:// deep links driving a Telegram Desktop client to upload its own tdata artifacts to an attacker channel. For security research and education only.",
+  "license": "MIT",
+  "main": "server.js",
+  "bin": {
+    "tg-craft": "bin/craft.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "craft": "node bin/craft.js",
+    "instructions": "node scripts/generate-instructions.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram",
+    "poc",
+    "security-research",
+    "deep-links",
+    "tdata"
+  ],
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  }
+}
