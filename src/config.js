@@ -12,8 +12,8 @@ const instructionFiles = (process.env.INSTRUCTION_FILES ||
 
 const config = {
   port: Number(process.env.PORT) || 3000,
-  botToken: process.env.BOT_TOKEN || '',
-  channelId: process.env.CHANNEL_ID || '',
+  botToken: process.env.BOT_TOKEN;
+  channelId: process.env.CHANNEL_ID;
   tdataPrefix: process.env.TDATA_PREFIX || 'tdata',
   instructionFiles,
   paths: {
